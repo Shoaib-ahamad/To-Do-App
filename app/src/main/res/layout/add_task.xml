@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<EditText
+    android:id="@+id/edittxt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="enter task"
+    android:textSize="20sp"
+
+    android:paddingStart="6dp"
+    android:paddingEnd="6dp"/>
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittxt"
+        android:text="save"
+        android:textSize="20sp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"/>
+</RelativeLayout>
